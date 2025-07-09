@@ -1,0 +1,95 @@
+body
+{
+    display:flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: flex-end;
+    height: 100vh; 
+    overflow:hidden;
+    margin:0;
+    
+}
+
+
+.bg
+{
+   width: 28%;
+   height: max-content;
+   margin:20px 0px 0px 20px;
+}
+
+.admission-card
+{
+    overflow-y: auto;
+    max-height:80vh;
+    border: 5px s rgba(21, 22, 22, 0.763);
+    border-radius:20px;
+    justify-content: flex-end;
+    margin-left: auto; 
+    padding: 20px;
+    background-color: rgba(21, 22, 22, 0.763);
+    box-shadow:0px 0px 6px 10px rgba(23, 23, 23, 0.6);
+   
+    
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+h2
+{
+    text-align:center;
+    color:azure;
+}
+
+.row
+{
+    display:flex;
+    gap:10px;
+}
+
+.phone-code {
+  width: 30%;
+}
+
+.row input[type="text"] {
+  width: 70%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: white;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 8px;
+  margin-top: 3px;  
+}
+
+
+.apply
+{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    
+}
+
+p
+{
+    text-align: center;
+    color:azure;
+    font-weight:bold;
+}
